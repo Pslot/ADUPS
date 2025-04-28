@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService{
                     .responseMessage(AccountUtils.ACCOUNT_EXISTS_MESSAGE)
                     .accountInfo(null)
                     .build();
-        };
+        }
         User newUser = User.builder()
                 .firstName(userRequests.getFirstName())
                 .balance(BigDecimal.ZERO)
