@@ -19,6 +19,7 @@ public class UserRequests {
     private String address;
     private String country;
     private String email;
+    private String password;
     private String phoneNumber;
 
 }
